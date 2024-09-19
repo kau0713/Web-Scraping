@@ -1,11 +1,7 @@
-# Web-Scraping-API-Integration
+# Web Scraping with BeautifulSoup
 
-This project demonstrates skills in web scraping, API integration, and data visualization using Python. The first section involves scraping data from Project Gutenberg’s Top 100 books page. Using libraries such as requests and BeautifulSoup, the web scraping process retrieves book details like titles and file numbers, which are then cleaned and processed using regular expressions. The project highlights how to automate the extraction of valuable information from web pages and manage the resulting data.
+This project focuses on web scraping using Python and the BeautifulSoup library to extract valuable information from web pages. The data was scraped from Project Gutenberg's Top 100 books page, where book titles and file numbers were retrieved. Using the `requests` library, we sent HTTP requests to fetch the webpage, and `BeautifulSoup` was used to parse the HTML and extract the relevant information. Regular expressions were then employed to clean and organize the data, focusing on the titles of the books and their corresponding file numbers.
 
-The second part of the project focuses on integrating with external APIs. Using the OMDb API, a movie database, I developed functions that retrieve detailed movie data such as title, year, genre, and director based on user input. Additionally, the project includes functionality for downloading movie posters. Furthermore, I used the Weather API to retrieve real-time weather data for a specific city (Portland), demonstrating how to pull and parse JSON responses from an external API.
+The key objective of this project was to automate the process of data extraction from a webpage, enabling the collection of large amounts of structured data with minimal manual effort. This exercise demonstrates the utility of web scraping for applications such as data collection for analysis, research, or further manipulation in a structured format.
 
-Finally, the project explores data visualization techniques with Matplotlib and Seaborn. Using a dataset of Netflix users, I created visualizations such as bar graphs, pie charts, and density plots to display subscription types, gender distribution, and age distribution, respectively. These visualizations offer insights into user demographics and subscription behavior.
-
-The skills demonstrated in this project include web scraping, API integration, data cleaning, and visualization using Python libraries like BeautifulSoup, requests, Pandas, Matplotlib, and Seaborn. The project provides a comprehensive exploration of extracting, processing, and visualizing data from multiple sources.
-
-
+The tools and libraries used include Python for general scripting, `requests` for retrieving the webpage content, and `BeautifulSoup` for parsing and navigating through the HTML structure. The use of regular expressions allowed for the precise extraction of book IDs and titles. The project can be run by executing
